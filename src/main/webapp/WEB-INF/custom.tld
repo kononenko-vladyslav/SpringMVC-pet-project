@@ -1,0 +1,21 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>t</short-name>
+    <uri>WEB-INF/custom.tld</uri>
+    <tag>
+        <name>tableTag</name>
+        <tag-class>laba17.tag.TableTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>users</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>cssClass</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
